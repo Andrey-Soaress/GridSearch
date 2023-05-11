@@ -56,7 +56,6 @@ def get_param_grid():
         'init': [ 'uniform','normal', ], 
         'batch_size':[16],
         'optimizer':['Adam'],
-        #'kr__layers_type':[['r','r','r']],
         'dropout_rate':[0.0,0.2,0.5],
         'learning_rate':[0.001,0.01],
         'dropout_layers':list(set(temporary))
@@ -81,7 +80,6 @@ def get_param_grid():
         'init': [ 'uniform','normal', ], 
         'batch_size':[16,32],
         'optimizer':['Adam'],
-        #'kr__layers_type':[['r','r','r']],
         'dropout_rate':[0.0,0.2,0.5],
         'learning_rate':[0.001,0.01],
         'dropout_layers':list(set(temporary))
@@ -105,7 +103,6 @@ def get_param_grid():
         'init': [ 'uniform','normal', ], 
         'batch_size':[16,32],
         'optimizer':['Adam'],
-        #'kr__layers_type':[['r','r','r']],
         'dropout_rate':[0.0,0.2,0.5],
         'learning_rate':[0.001,0.01],
         'dropout_layers':list(set(temporary))
@@ -129,7 +126,6 @@ def get_param_grid():
         'init': [ 'uniform','normal', ],
         'batch_size':[16,32],
         'optimizer':['Adam'],
-        #'kr__layers_type':[['r','r','r','r']],
         'dropout_rate':[0.0,0.2,0.5],
         'learning_rate':[0.001,0.01],
         'dropout_layers':list(set(temporary))
@@ -153,7 +149,6 @@ def get_param_grid():
         'init': [ 'uniform','normal', ], 
         'batch_size':[16,32],
         'optimizer':['Adam'],
-        #'kr__layers_type':[['r','r','r','r']],
         'dropout_rate':[0.0,0.2,0.5],
         'learning_rate':[0.001,0.01],
         'dropout_layers':list(set(temporary))
@@ -177,7 +172,6 @@ def get_param_grid():
         'init': [ 'uniform','normal', ], 
         'batch_size':[16,32],
         'optimizer':['Adam'],
-        #'kr__layers_type':[['r','r','r','r']],
         'dropout_rate':[0.0,0.2,0.5],
         'learning_rate':[0.001,0.01],
         'dropout_layers':list(set(temporary))
