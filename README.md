@@ -33,5 +33,5 @@ input_data = {'path': '/home/trama/Documents/Python Scripts/grid_search/datasets
 Em seguida, 
 
 importe o arquivo "grid_search.py" para o seu ambiente ( Jupyter notebook, por exemplo ), 
-e execute o comando: grid_search.init_process(input_data,<sep>)
-Onde <sep> define o separador do seu arquivo csv, como exemplo: ',' ou ';'.
+e execute o comando: grid_search.init_process(input_data,sep)
+Onde sep define o separador do seu arquivo csv, como exemplo: ',' ou ';'.
